@@ -51,10 +51,10 @@ Simulation Results
 ![Testbench](alu_tb.png)
 
 ### Simulation Waveform
-![Waveform](wave alu.png)
+![Waveform](wave_alu.png)
 
 ### output
-![Output](output alu.png)
+![Output](output_alu.png)
 
 
 ## 🎯 Learning Outcomes
