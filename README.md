@@ -67,3 +67,12 @@ Through this project, I gained hands-on experience in:
 5.Functional Verification
 6.Simulation and Debugging
 7.Vivado Design Flow
+
+## Applications
+-Microprocessors and CPUs
+-Embedded Systems
+-FPGA-Based Designs
+-Digital Signal Processing Systems
+-Arithmetic Processing Units
+-Educational VLSI Projects
+-ASIC Design Prototyping
