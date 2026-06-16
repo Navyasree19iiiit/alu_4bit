@@ -45,16 +45,16 @@ Simulation Results
 ## 📸 Screenshots
 
 ### RTL Design
-![RTL Design](alu code.png)
+![RTL Design](alucode.png)
 
 ### Testbench
 ![Testbench](alu_tb.png)
 
 ### Simulation Waveform
-![Waveform](wave_alu.png)
+![Waveform](wavealu.png)
 
 ### output
-![Output](output_alu.png)
+![Output](outputalu.png)
 
 
 ## 🎯 Learning Outcomes
