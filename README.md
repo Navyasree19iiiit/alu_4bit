@@ -45,7 +45,7 @@ Simulation Results
 ## 📸 Screenshots
 
 ### RTL Design
-![RTL Design](alu_code.png)
+![RTL Design](alu code.png)
 
 ### Testbench
 ![Testbench](alu_tb.png)
