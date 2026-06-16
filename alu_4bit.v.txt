@@ -1,0 +1,27 @@
+// Code your design here
+module alu_4bit(                                               
+    input[3:0]a,                                               
+    input[3:0]b,                                               
+    input[2:0]sel,                                             
+    output reg[3:0]out,                                        
+    output reg carry                                           
+    );                                                         
+                                                               
+always @(*)begin                                               
+  carry=0;                                                     
+  case(sel)                                                    
+   3'b000:{carry,out}=a+b;  //Addition                         
+   3'b001:{carry,out}=a-b;  //Subtraction                      
+   3'b010:{carry,out}=a&b;  //And gate                        
+   3'b011:{carry,out}=a|b;   //Or gate                        
+   3'b100:{carry,out}=a*b;    //Multiplication                 
+   3'b101:{carry,out}=!a;    ///Negation                       
+   3'b110:{carry,out}= a/b;  //Division                        
+   3'b111:{carry,out}=a^b;   //Xor gate
+                         
+      default:out=4'b0000;                                     
+  endcase                                                      
+end                                                            
+                                                               
+endmodule                                                      
+               
